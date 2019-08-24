@@ -1,15 +1,38 @@
-<div class="navbar">
-    <ul>
-        <li routerLink="/welcome">Welcome</li>
-        <li routerLink="/about">About Me</li>
-        <li routerLink="/whyAnimate">Why Animate?</li>
-        <li routerLink="/whyAngularAnimations">Why Angular Animations?</li>
-        <li routerLink="/angularAnimations">Angular Animations</li>
-        <li routerLink="/examples">Examples</li>
-        <li routerLink="/reuseable">Reusable Animations</li>
-        <li routerLink="/routerAnimations">Router Animations</li>
-        <li routerLink="/diving">Diving</li>
-        <li routerLink="/thanku">Thank U!</li>
-    </ul>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="/welcome" routerLinkActive="active">Welcome <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/whyAnimate" routerLinkActive="active">Why Animate?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/whyAngularAnimations" routerLinkActive="active">Why Angular Animations?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/angularAnimations" routerLinkActive="active">Angular Animations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/examples" routerLinkActive="active">Examples</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/reuseable" routerLinkActive="active">Reusable Animations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/routerAnimations" routerLinkActive="active">Router Animations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/diving" routerLinkActive="active">Diving</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/thanku" routerLinkActive="active">Thank U!</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
 <router-outlet></router-outlet>

@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     background: #1a1a1a;
 }
 .navbar ul {
@@ -18,4 +18,8 @@
 
 .navbar ul li:hover {
     background-color: #d23430;
+} */
+
+.nav-item {
+    text-align: center;
 }

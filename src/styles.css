@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://bootswatch.com/4/lux/bootstrap.css');
+@import url('https://bootswatch.com/_assets/css/custom.min.css');
 
 * {
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding-top: unset;
 }

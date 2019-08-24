@@ -1,0 +1,21 @@
+.navbar {
+    background: #1a1a1a;
+}
+.navbar ul {
+    background: #1a1a1a;
+}
+
+.navbar ul li {
+    padding: 5px 10px;
+    display: inline-block;   
+    color: white;
+    cursor: pointer;
+}
+
+.navbar ul li.active {
+    background-color: #d9534f;
+}
+
+.navbar ul li:hover {
+    background-color: #d23430;
+}

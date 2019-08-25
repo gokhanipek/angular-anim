@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
+
 @Component({
     selector: 'app-routerAnim',
-    template: `<div>RouterAnim</div>`
+    template: `router animation`,
 })
 export class RouterAnimComponent  {
 }

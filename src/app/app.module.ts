@@ -21,7 +21,7 @@ const appRoutes: Routes = [
   { path: 'diving', component: DivingComponent },
   { path: 'home',      component: AnimationsComponent },
   { path: 'welcome', component: WelcomeComponent },
-  { path: 'about', component: AboutComponent},
+  { path: 'about', component: AboutComponent, data: {animation: 'about'}},
   { path: 'whyAnimate', component: WhyAnimateComponent},
   { path: 'whyAngularAnimations', component: WhyAngularAnimationsComponent},
   { path: 'angularAnimations', component: AngularAnimationsComponent},
@@ -45,7 +45,7 @@ const appRoutes: Routes = [
     ExamplesComponent,
     ReusableComponent,
     RouterAnimComponent,
-    ThankUComponent
+    ThankUComponent,
   ],
   imports: [
     RouterModule.forRoot(

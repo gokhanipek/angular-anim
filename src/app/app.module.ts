@@ -20,13 +20,13 @@ import { ThankUComponent } from './thanku/thanku.component';
 const appRoutes: Routes = [
   { path: 'diving', component: DivingComponent },
   { path: 'home',      component: AnimationsComponent },
-  { path: 'welcome', component: WelcomeComponent },
+  { path: 'welcome', component: WelcomeComponent , data: {animation: 'welcome'} },
   { path: 'about', component: AboutComponent, data: {animation: 'about'}},
-  { path: 'whyAnimate', component: WhyAnimateComponent},
-  { path: 'whyAngularAnimations', component: WhyAngularAnimationsComponent},
-  { path: 'angularAnimations', component: AngularAnimationsComponent},
+  { path: 'whyAnimate', component: WhyAnimateComponent, data: {animation: 'whyAnimate'}},
+  { path: 'whyAngularAnimations', component: WhyAngularAnimationsComponent, data: {animation: 'whyAngularAnimations'}},
+  { path: 'angularAnimations', component: AngularAnimationsComponent,  data: {animation: 'angularAnimations'}},
   { path: 'examples', component: ExamplesComponent},
-  { path: 'reuseable', component: ReusableComponent },
+  { path: 'reuseable', component: ReusableComponent , data: {animation: 'reusable'}},
   { path: 'routerAnimations', component: RouterAnimComponent },
   { path: 'thanku', component: ThankUComponent},
   { path: '**', component: WelcomeComponent }

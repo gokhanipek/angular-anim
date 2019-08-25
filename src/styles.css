@@ -10,3 +10,36 @@
 body {
     padding-top: unset;
 }
+
+.navbar {
+    overflow-x:  auto;
+}
+
+.page {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.4);
+}
+
+.slide-text {
+    width: 100%;
+    padding: 40px;
+    font-size: 24px;
+}
+
+.scroll {
+    overflow-x: auto;
+}
+
+.horizontal {
+    display: inline-block;
+}

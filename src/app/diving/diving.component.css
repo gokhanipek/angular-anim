@@ -57,6 +57,14 @@ body {
     -webkit-animation: anim-island 10s linear infinite;
             animation: anim-island 10s linear infinite;
   }
+
+  .diver {
+    position: absolute;
+    width: 100px;
+    right: 0;
+    bottom: 70px;
+    z-index: 9;
+  }
   
   .tree {
     position: absolute;

@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
-import { FlipAnimation } from './../common';
+import { SlideAnimation } from './../common/slide.animation';
 
 
 @Component({
     selector: 'app-reusable',
     template: `
+        <img src="./../assets/reuse.png"/>
+        <img src="./../assets/reusehtml.png"/>
+        <img src="./../assets/reusestate.png"/>
         <div class="animation-container">
             <div class="image-wrapper">
-                <div *ngFor="let car of cars, let i = index" class="image-box" [@flipState]="{value: slide, params:{delay: (i*100)}}">
+                <div *ngFor="let car of cars, let i = index" class="image-box" [@slideState]="{value: slide, params:{delay: (i*100)}}">
                     <div class="image">
                             <img src="{{car}}">
                     </div>
@@ -40,7 +43,7 @@ import { FlipAnimation } from './../common';
 
       
     `],
-    animations: FlipAnimation.animations  
+    animations: SlideAnimation.animations  
 
 })
 

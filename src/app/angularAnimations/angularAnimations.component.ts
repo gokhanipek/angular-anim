@@ -32,36 +32,26 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
         </ul>
         </div>
 
-        <div class="heart"></div>
+        <div [@fav]="likeState" (click)="liked()" class="heart"></div>
     `,
     styles: [`
-    
     .heart {
       width: 100px;
       height: 100px;
-      // position: absolute;
-      // left: 50%;
-      // top: 50%;
-      // transform: translate(-50%, -50%);
       background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
-      background-position: 0 0;
       cursor: pointer;
-      animation: fave-heart 1s steps(28);
-    }
-    .heart:hover {
-      background-position: -2800px 0;
-      transition: background 1s steps(28);
-    }
-    @keyframes fave-heart {
-      0% {
-        background-position: 0 0;
-      }
-      100% {
-        background-position: -2800px 0;
-      }
     }
     `],
     animations: [
+        trigger('fav', [
+          state('unclicked', style({
+            'background-position': '0 0'
+          })),
+          state('clicked', style({
+            'background-position': '-2800px 0',
+          })),
+          transition('unclicked=>clicked', animate('10s steps(28)')),
+        ]),
         trigger('changeDivSize', [
           state('initialSize', style({
             backgroundColor: 'green',

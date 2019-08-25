@@ -29,7 +29,7 @@ const appRoutes: Routes = [
   { path: 'reuseable', component: ReusableComponent },
   { path: 'routerAnimations', component: RouterAnimComponent },
   { path: 'thanku', component: ThankUComponent},
-  { path: '**', component: AppComponent }
+  { path: '**', component: WelcomeComponent }
 ];
 
 @NgModule({

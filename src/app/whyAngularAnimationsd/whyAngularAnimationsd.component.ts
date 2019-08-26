@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-angularAnimations',
+    selector: 'app-angularAnimationsd',
     template: `
         <div class="page">
             <div class="slide scroll">
@@ -10,13 +10,13 @@ import { Component, OnInit } from '@angular/core';
                         <h2>Why angular animations</h2>
                     </div>
                     <div class="slide-text p-1">
-                        <p>Transition styles - these styles are only applied during transition from one state to another </p>
+                        <p>It is possible to use instance fields as params in Angular animations</p>
                     </div>
                 </div>
             </div>
         </div>
     `
 })
-export class WhyAngularAnimationsComponent {
+export class WhyAngularAnimationsdComponent {
 
 }

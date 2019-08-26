@@ -11,7 +11,6 @@ import { Component } from '@angular/core';
                 <div class="slide-image"></div>
             </div>
         </div>
-
     `,
 })
 export class WelcomeComponent {

@@ -5,10 +5,10 @@ import { Component, OnInit } from '@angular/core';
     template: `
         <div class="page">
             <div class="slide scroll">
-                <div class="slide-text"></div>
+                <div class="slide-text"><h2>Not every animation is beautiful</h2></div>
                 <div class="image-container">
                     <div class="slide-image horizontal">
-                        <img src="./../assets/animation.gif">>
+                        <img src="./../assets/badanimation.gif">
                     </div>
                 </div>
             </div>
@@ -16,7 +16,10 @@ import { Component, OnInit } from '@angular/core';
     `,
     styles: [`
         .image-container {
-            width: 400%"
+            width: 100%;
+        }
+        img {
+            width: 100%;
         }
     `]
 })

@@ -17,7 +17,6 @@ body {
 
 .page {
     display: flex;
-    height: 70vh;
     width: 100%;
     justify-content: center;
     align-items: center;

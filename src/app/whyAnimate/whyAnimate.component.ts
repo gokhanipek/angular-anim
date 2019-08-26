@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
                 <div class="slide-text"></div>
                 <div class="image-container">
                     <div class="slide-image horizontal">
-                        <img src="./../assets/addiction.jpg">>
+                        <img src="./../assets/oldvsnew.png">
                     </div>
                 </div>
             </div>

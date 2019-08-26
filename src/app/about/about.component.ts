@@ -19,9 +19,6 @@ import { Component, OnInit } from '@angular/core';
             display: flex;
             justify-content: center;
             text-align: center;
-            background: url(./../assets/gokhan.jpg) no-repeat;
-            background-size: cover;
-            background-position-y: -100px;
         }
     `]
 })

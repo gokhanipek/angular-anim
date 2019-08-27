@@ -49,3 +49,10 @@ body {
 .slide-image img {
     height: 400px;
 }
+
+.slide-result {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 5px solid black;
+}

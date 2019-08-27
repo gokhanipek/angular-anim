@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { SlideAnimation } from './../common/slide.animation';
+import { SlideAnimation } from '../common/slide.animation';
 
 
 @Component({
-    selector: 'app-reusable',
+    selector: 'app-reusablec',
     template: `    
         <div class="page">
             <div class="slide scroll">
@@ -14,7 +14,7 @@ import { SlideAnimation } from './../common/slide.animation';
                 </div>
                 <div class="image-container">
                     <div class="slide-image horizontal">
-                        <img src="./../assets/reusable2.png">
+                        <img src="./../assets/reusable-comp.png">
                     </div>
 
                 </div>
@@ -22,15 +22,17 @@ import { SlideAnimation } from './../common/slide.animation';
         </div>
     `,
     styles: [`
- 
-      
+    img{
+        width: 50%;
+        height: auto;
+    }
     `],
     animations: [ SlideAnimation ]  
 
 })
 
 
-export class ReusableComponent {
+export class ReusablecComponent {
     cars:string[] = [
         './../assets/car1.jpg',
         './../assets/car2.jpg',
@@ -45,7 +47,6 @@ export class ReusableComponent {
     slide: string = 'inactive';
 
     toggleSlide() {
-      console.log(this.slide);
       this.slide = this.slide === 'inactive' ? 'active' : 'inactive';
     }
   

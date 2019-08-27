@@ -12,6 +12,7 @@ import { WhyAngularAnimationsComponent } from './whyAngularAnimations/whyAngular
 import { AngularAnimationsComponent } from './angularAnimations/angularAnimations.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { ReusableComponent } from './reusable/reusable.component';
+import { ReusablebComponent } from './reusableb/reusableb.component';
 import { RouterAnimComponent } from './routerAnimations/routerAnimations.component';
 import { ThankUComponent } from './thanku/thanku.component';
 import { WhyAnimatebComponent } from './whyAnimateb/whyAnimateb.component';
@@ -28,6 +29,7 @@ import { ExamplesbComponent } from './examplesb/examplesb.component';
 import { ExamplescComponent } from './examplesc/examplesc.component';
 import { ExamplesdComponent } from './examplesd/examplesd.component';
 import { AngularAnimationsfComponent } from './angularAnimationsf/angularAnimationsf.component';
+import { ReusablecComponent } from './reusablec/reusablec.component';
 
 
 
@@ -55,6 +57,8 @@ const appRoutes: Routes = [
   { path: 'examplesc', component: ExamplescComponent, data: {animation: 'examplesc'}},
   { path: 'examplesd', component: ExamplesdComponent, data: {animation: 'examplesd'}},
   { path: 'reuseable', component: ReusableComponent , data: {animation: 'reusable'}},
+  { path: 'reuseableb', component: ReusablebComponent , data: {animation: 'reusableb'}},
+  { path: 'reuseablec', component: ReusablecComponent , data: {animation: 'reusablec'}},
   { path: 'routerAnimations', component: RouterAnimComponent, data: {animation: 'routerAnimations'} },
   { path: 'thanku', component: ThankUComponent},
   { path: '**', component: WelcomeComponent }
@@ -86,6 +90,8 @@ const appRoutes: Routes = [
     ExamplescComponent,
     ExamplesdComponent,
     ReusableComponent,
+    ReusablebComponent,
+    ReusablecComponent,
     RouterAnimComponent,
     ThankUComponent,
   ],

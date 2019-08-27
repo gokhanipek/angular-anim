@@ -1,15 +1,44 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
     selector: 'app-examples',
     template: ` 
-    <h3>Balloon Effect</h3>
-    <div class="balloon" (click)="balloonEffect()"
-      [@balloonEffect]=balloonState>
+    <div class="page">
+        <div class="slide scroll">
+            <div class="text-slide">
+                <div class="slide-text">
+                    <h2>Balloon Effect</h2>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="slide-image horizontal">
+                    <img src="./../assets/balloon.png">
+                </div>
+                <div class="slide-image horizontal">
+                    <div class="slide-result">
+                        <div class="balloon" (click)="balloonEffect()"
+                            [@balloonEffect]=balloonState>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   `,
-  styleUrls: ['./examples.component.css'],
+  styles: [`
+    .balloon {
+        width:100px;
+        height:100px; 
+        border-radius: 100%; 
+        margin: 3rem; 
+        background-color: green
+    }
+
+    img {
+        height: 500px;
+    }
+  `],
   animations: [
       trigger('balloonEffect', [
         state('start', style({

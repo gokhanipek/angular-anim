@@ -8,7 +8,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
         <div class="slide scroll">
             <div class="text-slide">
                 <div class="slide-text">
-                    <h2>How to use?</h2>
+                    <h2>Result</h2>
                 </div>
             </div>
             <div class="image-container">
@@ -44,6 +44,10 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 
         .slide-result ul {
             list-style: none;
+            margin-left: unset;
+            padding: unset;
+            text-align: center;
+            font-size: 1.4em;
         }
 
         li {

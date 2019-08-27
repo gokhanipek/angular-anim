@@ -11,7 +11,7 @@ import {
 export const slideInAnimation =
     trigger('routeAnimations', [
         transition('* <=> *', [
-            query(':enter, :leave', style({ position: 'fixed', width: '100%' }), { optional: true }),
+            query(':enter, :leave', style({ position: 'fixed', width: '100%' })),
             group([
                 query(':enter', [
                     style({ transform: 'translateX(100%)' }),

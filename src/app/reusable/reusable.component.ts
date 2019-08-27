@@ -10,6 +10,7 @@ import { SlideAnimation } from './../common/slide.animation';
                 <div class="text-slide">
                     <div class="slide-text">
                         <h2>Reusable Animations</h2>
+                        <p>Create an animation and assign it on a variable. Export it.</p>
                     </div>
                 </div>
                 <div class="image-container">

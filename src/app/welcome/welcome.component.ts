@@ -12,6 +12,11 @@ import { Component } from '@angular/core';
             </div>
         </div>
     `,
+    styles: [`
+        .page {
+            height: 70vh;
+        }
+    `]
 })
 export class WelcomeComponent {
 

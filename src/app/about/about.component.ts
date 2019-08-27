@@ -20,6 +20,10 @@ import { Component, OnInit } from '@angular/core';
             justify-content: center;
             text-align: center;
         }
+
+        .page {
+            height: 70vh;
+        }
     `]
 })
 export class AboutComponent {

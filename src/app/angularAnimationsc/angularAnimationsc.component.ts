@@ -9,6 +9,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
             <div class="text-slide">
                 <div class="slide-text">
                     <h2>How to use?</h2>
+                    <p>Decide on your trigger, state and animation style</p>
                 </div>
             </div>
             <div class="image-container">

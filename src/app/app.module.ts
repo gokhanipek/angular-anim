@@ -30,6 +30,7 @@ import { ExamplescComponent } from './examplesc/examplesc.component';
 import { ExamplesdComponent } from './examplesd/examplesd.component';
 import { AngularAnimationsfComponent } from './angularAnimationsf/angularAnimationsf.component';
 import { ReusablecComponent } from './reusablec/reusablec.component';
+import { RouterAnimbComponent } from './routerAnimationsb/routerAnimationsb.component';
 
 
 
@@ -60,6 +61,7 @@ const appRoutes: Routes = [
   { path: 'reuseableb', component: ReusablebComponent , data: {animation: 'reusableb'}},
   { path: 'reuseablec', component: ReusablecComponent , data: {animation: 'reusablec'}},
   { path: 'routerAnimations', component: RouterAnimComponent, data: {animation: 'routerAnimations'} },
+  { path: 'routerAnimationsb', component: RouterAnimbComponent, data: {animation: 'routerAnimationsb'} },
   { path: 'thanku', component: ThankUComponent},
   { path: '**', component: WelcomeComponent }
 ];
@@ -93,6 +95,7 @@ const appRoutes: Routes = [
     ReusablebComponent,
     ReusablecComponent,
     RouterAnimComponent,
+    RouterAnimbComponent,
     ThankUComponent,
   ],
   imports: [

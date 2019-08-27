@@ -10,6 +10,7 @@ import { SlideAnimation } from '../common/slide.animation';
                 <div class="text-slide">
                     <div class="slide-text">
                         <h2>Reusable Animations</h2>
+                        <p>Now you can use the animation in another component.</p>
                     </div>
                 </div>
                 <div class="image-container">

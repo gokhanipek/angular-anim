@@ -9,6 +9,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
             <div class="text-slide">
                 <div class="slide-text">
                     <h2>Result</h2>
+                    <p>Congragulations on your first Angular Animation</p>
                 </div>
             </div>
             <div class="image-container">

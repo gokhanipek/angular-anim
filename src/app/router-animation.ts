@@ -23,5 +23,4 @@ export const slideInAnimation =
                 ], { optional: true }),
             ])
         ]),
-        
     ]);

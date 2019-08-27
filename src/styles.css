@@ -42,3 +42,10 @@ body {
 .horizontal {
     display: inline-block;
 }
+
+.image-container {
+    width: 100%;
+}
+.slide-image img {
+    height: 400px;
+}

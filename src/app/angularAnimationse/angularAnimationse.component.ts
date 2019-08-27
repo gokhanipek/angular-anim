@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
-    selector: 'app-angularAnimationsd',
+    selector: 'app-angularAnimationse',
     template: ` 
       <div class="page">
         <div class="slide scroll">
@@ -13,7 +13,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
             </div>
             <div class="image-container">
                 <div class="slide-image horizontal">
-                    <img src="./../assets/template2.png">
+                    <img src="./../assets/function.png">
                 </div>
             </div>
         </div>
@@ -22,6 +22,6 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
     styles: [`
     `],
 })
-export class AngularAnimationsdComponent {
+export class AngularAnimationseComponent {
 
 }

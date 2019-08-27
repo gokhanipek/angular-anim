@@ -16,12 +16,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
     `,
     styles: [`
-        .image-container {
-            width: 400%"
-        }
-        .slide-image img {
-            height: 300px;
-        }
+
     `]
 })
 export class WhyAnimatebComponent {

@@ -10,12 +10,23 @@ import { Component, OnInit } from '@angular/core';
                         <h2>Why angular animations</h2>
                     </div>
                     <div class="slide-text p-1">
-                        <p>Transition styles - these styles are only applied during transition from one state to another </p>
+                        <p> They are reusable. </p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="slide-image horizontal">
+                        <img src="./../assets/Recycle.svg">
+                        <img src="./../assets/reusable.png">
                     </div>
                 </div>
             </div>
         </div>
-    `
+    `,
+    styles: [`
+        img {
+            height: 300px;
+        }
+    `]
 })
 export class WhyAngularAnimationsComponent {
 

@@ -15,12 +15,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
     `,
     styles: [`
-        .image-container {
-            width: 100%;
-        }
-        img {
-            width: 100%;
-        }
+
     `]
 })
 export class WhyAnimatedComponent {

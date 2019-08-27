@@ -10,12 +10,23 @@ import { Component, OnInit } from '@angular/core';
                         <h2>Why angular animations</h2>
                     </div>
                     <div class="slide-text p-1">
-                        <p>Automatic property calculation '*' In Angular it is as easy</p>
+                        <p>Technically a css animation</p>
+                        <p>Transitions and Styles are only applied during the animation</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="slide-image horizontal">
+                        <img src="./../assets/animationcss.gif">
                     </div>
                 </div>
             </div>
         </div>
-    `
+    `,
+    styles: [`
+        img {
+            height: 300px;
+        }
+    `]
 })
 export class WhyAngularAnimationscComponent {
 

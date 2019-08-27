@@ -13,9 +13,19 @@ import { Component, OnInit } from '@angular/core';
                         <p>The animation states - Let's you animate elements being added or removed from the DOM.        </p>
                     </div>
                 </div>
+                <div class="image-container">
+                    <div class="slide-image horizontal">
+                        <img src="./../assets/open-closed.png">
+                    </div>
+                </div>
             </div>
         </div>
-    `
+    `,
+    styles: [`
+        img {
+            height: 300px;
+        }
+    `]
 })
 export class WhyAngularAnimationsbComponent {
 

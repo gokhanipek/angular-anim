@@ -23,9 +23,11 @@ import { WhyAngularAnimationsdComponent } from './whyAngularAnimationsd/whyAngul
 import { AngularAnimationsbComponent } from './angularAnimationsb/angularAnimationsb.component';
 import { AngularAnimationscComponent } from './angularAnimationsc/angularAnimationsc.component';
 import { AngularAnimationsdComponent } from './angularAnimationsd/angularAnimationsd.component';
-import { ExamplesbComponent } from './examplesc/examplesc.component';
-import { ExamplescComponent } from './examplesb/examplesb.component';
+import { AngularAnimationseComponent } from './angularAnimationse/angularAnimationse.component';
+import { ExamplesbComponent } from './examplesb/examplesb.component';
+import { ExamplescComponent } from './examplesc/examplesc.component';
 import { ExamplesdComponent } from './examplesd/examplesd.component';
+import { AngularAnimationsfComponent } from './angularAnimationsf/angularAnimationsf.component';
 
 
 
@@ -46,6 +48,8 @@ const appRoutes: Routes = [
   { path: 'angularAnimationsb', component: AngularAnimationsbComponent,  data: {animation: 'angularAnimationsb'}},
   { path: 'angularAnimationsc', component: AngularAnimationscComponent,  data: {animation: 'angularAnimationsc'}},
   { path: 'angularAnimationsd', component: AngularAnimationsdComponent,  data: {animation: 'angularAnimationsd'}},
+  { path: 'angularAnimationse', component: AngularAnimationseComponent,  data: {animation: 'angularAnimationse'}},  
+  { path: 'angularAnimationsf', component: AngularAnimationsfComponent,  data: {animation: 'angularAnimationsf'}},  
   { path: 'examples', component: ExamplesComponent, data: {animation: 'examples'}},
   { path: 'examplesb', component: ExamplesbComponent, data: {animation: 'examplesb'}},
   { path: 'examplesc', component: ExamplescComponent, data: {animation: 'examplesc'}},
@@ -75,6 +79,8 @@ const appRoutes: Routes = [
     AngularAnimationsbComponent,
     AngularAnimationscComponent,
     AngularAnimationsdComponent,
+    AngularAnimationseComponent,
+    AngularAnimationsfComponent,
     ExamplesComponent,
     ExamplesbComponent,
     ExamplescComponent,

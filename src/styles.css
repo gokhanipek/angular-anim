@@ -56,3 +56,18 @@ body {
     background: white;
     border: 5px solid black;
 }
+
+.img-long {
+    width: 400px;
+    height: auto;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.page {
+    height: 70vh;
+}

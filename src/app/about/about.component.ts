@@ -15,15 +15,7 @@ import { Component } from '@angular/core';
         </div>
     `,
     styles: [`
-        .background {
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
 
-        .page {
-            height: 70vh;
-        }
     `]
 })
 export class AboutComponent {

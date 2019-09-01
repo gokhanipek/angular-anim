@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SlideAnimation } from './../common/slide.animation';
+import { SlideAnimation } from '../common/slide.animation';
 
 
 @Component({

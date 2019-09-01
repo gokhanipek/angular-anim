@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
   }
   
-  .window {
+  .diving.window {
     width: 100%;
     height: 80vh;
     position: absolute;

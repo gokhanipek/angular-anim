@@ -52,7 +52,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
           state('clicked', style({
             'background-position': '-2800px 0',
           })),
-          transition('unclicked=>clicked', animate('1s steps(28)')),
+          transition('unclicked=>clicked', animate('3s steps(28)')),
         ]),
       ],
 })

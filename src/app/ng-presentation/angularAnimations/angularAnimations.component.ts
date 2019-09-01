@@ -20,7 +20,6 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
       </div>
   </div>
     `,
-    styleUrls: ['./angularAnimations.component.css'],
     animations: [
         trigger('balloonEffect', [
           state('start', style({

@@ -4,7 +4,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 @Component({
     selector: 'app-diving',
     template: `
-        <div class="window">
+        <div class="diving window">
             <div class="sun"></div>
             <div class="island">
             <img (click)="diving()" class="diver" src="./../../assets/diver.png"/>

@@ -2,35 +2,36 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AnimationsComponent } from './animations/animations.component';
-import { DivingComponent } from './diving/diving.component';
+import { AnimationsComponent } from './ng-presentation/animations/animations.component';
+import { DivingComponent } from './ng-presentation/diving/diving.component';
 import { RouterModule, Routes } from '@angular/router';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { AboutComponent } from './about/about.component';
-import { WhyAnimateComponent } from './whyAnimate/whyAnimate.component';
-import { WhyAngularAnimationsComponent } from './whyAngularAnimations/whyAngularAnimations.component';
-import { AngularAnimationsComponent } from './angularAnimations/angularAnimations.component';
-import { ExamplesComponent } from './examples/examples.component';
-import { ReusableComponent } from './reusable/reusable.component';
-import { ReusablebComponent } from './reusableb/reusableb.component';
-import { RouterAnimComponent } from './routerAnimations/routerAnimations.component';
-import { ThankUComponent } from './thanku/thanku.component';
-import { WhyAnimatebComponent } from './whyAnimateb/whyAnimateb.component';
-import { WhyAnimatecComponent } from './whyAnimatec/whyAnimatec.component';
-import { WhyAnimatedComponent } from './whyAnimated/whyAnimated.component';
-import { WhyAngularAnimationsbComponent } from './whyAngularAnimationsb/whyAngularAnimationsb.component';
-import { WhyAngularAnimationscComponent } from './whyAngularAnimationsc/whyAngularAnimationsc.component';
-import { WhyAngularAnimationsdComponent } from './whyAngularAnimationsd/whyAngularAnimationsd.component';
-import { AngularAnimationsbComponent } from './angularAnimationsb/angularAnimationsb.component';
-import { AngularAnimationscComponent } from './angularAnimationsc/angularAnimationsc.component';
-import { AngularAnimationsdComponent } from './angularAnimationsd/angularAnimationsd.component';
-import { AngularAnimationseComponent } from './angularAnimationse/angularAnimationse.component';
-import { ExamplesbComponent } from './examplesb/examplesb.component';
-import { ExamplescComponent } from './examplesc/examplesc.component';
-import { ExamplesdComponent } from './examplesd/examplesd.component';
-import { AngularAnimationsfComponent } from './angularAnimationsf/angularAnimationsf.component';
-import { ReusablecComponent } from './reusablec/reusablec.component';
-import { RouterAnimbComponent } from './routerAnimationsb/routerAnimationsb.component';
+import { WelcomeComponent } from './ng-presentation/welcome/welcome.component';
+import { AboutComponent } from './ng-presentation/about/about.component';
+import { WhyAnimateComponent } from './ng-presentation/whyAnimate/whyAnimate.component';
+import { WhyAngularAnimationsComponent } from './ng-presentation/whyAngularAnimations/whyAngularAnimations.component';
+import { AngularAnimationsComponent } from './ng-presentation/angularAnimations/angularAnimations.component';
+import { ExamplesComponent } from './ng-presentation/examples/examples.component';
+import { ReusableComponent } from './ng-presentation/reusable/reusable.component';
+import { ReusablebComponent } from './ng-presentation/reusableb/reusableb.component';
+import { RouterAnimComponent } from './ng-presentation/routerAnimations/routerAnimations.component';
+import { ThankUComponent } from './ng-presentation/thanku/thanku.component';
+import { WhyAnimatebComponent } from './ng-presentation/whyAnimateb/whyAnimateb.component';
+import { WhyAnimatecComponent } from './ng-presentation/whyAnimatec/whyAnimatec.component';
+import { WhyAnimatedComponent } from './ng-presentation/whyAnimated/whyAnimated.component';
+import { WhyAngularAnimationsbComponent } from './ng-presentation/whyAngularAnimationsb/whyAngularAnimationsb.component';
+import { WhyAngularAnimationscComponent } from './ng-presentation/whyAngularAnimationsc/whyAngularAnimationsc.component';
+import { WhyAngularAnimationsdComponent } from './ng-presentation/whyAngularAnimationsd/whyAngularAnimationsd.component';
+import { AngularAnimationsbComponent } from './ng-presentation/angularAnimationsb/angularAnimationsb.component';
+import { AngularAnimationscComponent } from './ng-presentation/angularAnimationsc/angularAnimationsc.component';
+import { AngularAnimationsdComponent } from './ng-presentation/angularAnimationsd/angularAnimationsd.component';
+import { AngularAnimationseComponent } from './ng-presentation/angularAnimationse/angularAnimationse.component';
+import { ExamplesbComponent } from './ng-presentation/examplesb/examplesb.component';
+import { ExamplescComponent } from './ng-presentation/examplesc/examplesc.component';
+import { ExamplesdComponent } from './ng-presentation/examplesd/examplesd.component';
+import { AngularAnimationsfComponent } from './ng-presentation/angularAnimationsf/angularAnimationsf.component';
+import { ReusablecComponent } from './ng-presentation/reusablec/reusablec.component';
+import { RouterAnimbComponent } from './ng-presentation/routerAnimationsb/routerAnimationsb.component';
+import { QuoteComponent } from './ng-presentation/quote/quote.component';
 
 
 
@@ -62,6 +63,7 @@ const appRoutes: Routes = [
   { path: 'reuseablec', component: ReusablecComponent , data: {animation: 'reusablec'}},
   { path: 'routerAnimations', component: RouterAnimComponent, data: {animation: 'routerAnimations'} },
   { path: 'routerAnimationsb', component: RouterAnimbComponent, data: {animation: 'routerAnimationsb'} },
+  { path: 'quote', component: QuoteComponent},
   { path: 'thanku', component: ThankUComponent},
   { path: '**', component: WelcomeComponent }
 ];
@@ -97,6 +99,7 @@ const appRoutes: Routes = [
     RouterAnimComponent,
     RouterAnimbComponent,
     ThankUComponent,
+    QuoteComponent
   ],
   imports: [
     RouterModule.forRoot(

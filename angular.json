@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-animations"
+    }
+  },
+  "defaultProject": "angular-animations",
+  "cli": {
+    "analytics": false
+  }
 }
